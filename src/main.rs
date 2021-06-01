@@ -7,7 +7,7 @@ fn main() -> Result<(), Box<dyn Error>> {
     let first_argument: String = args().nth(1).unwrap();
 
     for entry in WalkDir::new(&first_argument)
-        .follow_links(true)
+        .follow_links(false)
         .into_iter()
         .filter_map(|e| e.ok())
     {
