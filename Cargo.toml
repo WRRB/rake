@@ -1,5 +1,5 @@
 [package]
-name = "flatten"
+name = "rake"
 version = "0.1.0"
 authors = ["Wim Berchmans <wim.berchmans@porphyrio.com>"]
 edition = "2018"
@@ -8,3 +8,4 @@ edition = "2018"
 
 [dependencies]
 walkdir = "2"
+structopt = "0.3.13"
